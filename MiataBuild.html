@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Miata Build Log</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+    * {box-sizing: border-box}
+    body {font-family: Verdana, sans-serif; margin:0}
+    .mySlides {display: none}
+    img {vertical-align: middle;}
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1500s;
+      animation-name: fade;
+      animation-duration: 1500s;
+    }
+
+    @-webkit-keyframes fade {
+      from {opacity: 1} 
+      to {opacity: 1}
+    }
+
+    @keyframes fade {
+      from {opacity: 1} 
+      to {opacity: 1}
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+    }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                     <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">Home</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/post-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>My 1996 Mazda Miata Build Log</h1>
+                        <h2 class="subheading">A persuit of driving skill and better lap times.</h2>
+                        <span class="meta">Posted by <a href="#">Jawad Haq</a> on October 31, 2021</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <h2 class="section-heading">Some Background</h2>
+                    <p>For my 18th birthday, I decided to purchase my very first car. I did not need something practical since I was still living with my parents and commuting to UIC via train.  </p>
+                    
+                    <p>I've really wanted to learn how to build and race a car of my own. When I discovered a low mileage all orignal, and immaculately maintained Mazda Miata for a great price, I had to make the three hour drive to check it out. I also wanted to learn how to drive a manual transmission car and there is almost no better car to learn on than this.</p>
+
+                    <img class="img-responsive" src="img/b41.jpg" alt="">
+                    <span class="caption text-muted">How the car looked the day I bought it. It did have a poorly finished repaint on the bottom half of the car which has since been taken care of.</span>
+                  
+                    <p> 
+                    
+                    </p>
+                    <img class="img-responsive" src="img/b42.jpg" alt="">
+                        <figcaption><i></i></figcaption>
+                    <span class="caption text-muted">Another image of how the car looked on the drive back.</span>
+                    
+                     <p> 
+                        At this point in time, the car was ready to take to the local track and tackle any obstacle course the local Miata Club could come up with. Though, due to Covid I did not have a chance to autocross my car since I wanted my family at home to stay safe.
+                    </p>
+                    
+
+                    <h2 class="section-heading">The Upgrades</h2>
+
+                    <p>Now, it is usually not recommended to upgrade your autocross car without truly understanding its driving characteristics in stock form. Since I had already understood the basics of autocrossing from the racing club my high school had offered, I decided to trust my instincts and ordered a full set of chassis and suspension upgrades. One upgrade leads to another (usually due to necessity) and by the time I had finished these upgrades, the car was not a very comfortable daily driver anymore. That was the goal since this car will be autocrossed most of the time.</p>
+
+                    <p>The very first upgrades that would assist my lap times that I  installed were a set of coilovers behind all four wheels as well as a new set of wider wheels and tires. The coilovers serve two main purposes: to lower the cars center of gravity and to stiffen the suspension of the car. This allowed the weight transfer around corners to be predictable and gives the driver a better feeling of how well the car is gripping the road. The new set of wheels allowed the car to utilize wider tires, increasing its maximum grip. </p>
+                    
+                    <img class="img-responsive" src="img/coilovers.jpg" alt="">
+                         <span class="caption text-muted">Fresh coilovers from Taiwan! Designed by MeisterR.</span>
+                    <p> </p>
+                    <img class="img-responsive" src="img/wheels.jpg" alt="">
+                     <span class="caption text-muted">Wheels installed but not the coilovers. It is clear that the ride height is not very optimal and the cars weight would be harder to predict than when lowered</span>
+
+                    
+
+                    <p>Now that the car was lowered I was running into new problems. The lowered ride height had shifted the suspensions geometry quite a bit and the anti-sway bar was under extreme stress. Additionally, the front sway bar end link bushing had completely removed itself from the picture. I decieded it was time to run stiffer sway bars to reduce how much the chassis sways (which impacts how much the car under/oversteers). This part in particular, paired with the past upgrades made the car feel like it was driving on rails!  </p>
+                    
+                    
+                    <img class="img-responsive" src="img/swayb.jpg.png" alt="">
+                    <span class="caption text-muted">A comparison of how a Miata responds to different sway bars. Image from Donut Media on YouTube.</span>
+                   
+                    
+                    <p>Now before it could get too cold since it was about late October in Chicago, I needed to add one more upgrade to tie all of these upgrades together. Since this car is a convertible, the lack of a roof above reduces the rigidity of the chassis quite a bit. This meant that whenever the road was bumpy, the whole car would flex and bend more than enough for it  to significantly reduce the efficiency of the new suspension upgrades. Since the suspension relies heavily on the frame of the car being  completely straight to work properly, I needed to stiffen the frame. I decided to install some frame rails under the car and added cross bracing to the frame rails to allow them to really hold the car together. </p>
+                    
+                    <img class="img-responsive" src="img/under.jpg" alt="">
+                     <span class="caption text-muted">Pictured: towards the back we can see the new frame rails running parallel to the wheels and the cross brace that connect both rails. Bonus part: I added some aluminum shielding under the car to protect vital components since it is so low.</span>
+                    <p> That concluded all of my autocross related upgrades. I finshed all of these upgrades  by Thanksgiving 2020 and unfortunately had to wait till the following Spring to be able to drive the car again since it was stored away from the freezing Chicago winter.</p>
+                    
+                    <p> Besides these upgrades, many other miscellaneous and supporting modifications had taken place but were not pictured. For example, the obvious color change was not explained but it was only fitting for the car to feature racing stripes as a race car. In the interior, the sound system was completely redone since I do enjoy listening to music and cruising around town when the weather is nice. Finally, I had installed a short throw shifter which reduces the distance required from changing between gears inturn reducing shift times.  </p>
+
+                    <h2 class="section-heading">The Results</h2>
+
+                    <p>Unfortunately, I was not able to collect any data of how the car performed when it was stock but the current results of the car are amazing. By my third autocross event this year, I was keeping up with all of the other cars in my class and I nearly caught up to the same time the veteran autocross members were winning. Keep in mind that this was my very first proper autocross that I had ever competed in.  More information and lap times can be found <a href="https://www.windycitymiataclub.com/wcmc/index.php?option=com_content&view=article&id=220"  target="_blank">here.</a>  </p>
+                    
+                    <p>From the day that I purchased the car to now, the car has essentially gone through a complete transformation. Its previous driving and handling characteristics have been altered to better meet improved autocross lap times and the aesthetic modifications allow it to do so in style!</p>
+                    
+                    
+                    <p>A couple of notes: on this car, I have done all of the work by hand in my garage using basic hand tools. The only exception is the cars vinyl wrap which was done by my friend. Additionally, I wanted to thank my father for giving me space and tools to learn and build a machine that is very capable. Finally, a big thank you to the Windy City Miata Club for hosting such amazing events every week as well as maintaining a safe and fun environment to practice driving.  </p>
+                    
+                     <p> 
+                    Finally, here is a slideshow of how the car currently sits while performing: 
+                    </p>
+                    <!-- slideshow script -->
+    
+   
+                    <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 5</div>
+                      <img src="img/FB_IMG_1628353146617.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 5</div>
+                      <img src="img/FB_IMG_1628353127872.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 5</div>
+                      <img src="img/FB_IMG_1628353151190.jpg" style="width:100%">
+                    </div>
+                        <div class="mySlides fade">
+                      <div class="numbertext">4 / 5</div>
+                      <img src="img/FB_IMG_1628353173137.jpg" style="width:100%">
+                    </div>
+                        <div class="mySlides fade">
+                      <div class="numbertext">5 / 5</div>
+                      <img src="img/FB_IMG_1628353151190.jpg" style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    </div>
+                    <br>
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span> 
+                      <span class="dot" onclick="currentSlide(4)"></span> 
+                      <span class="dot" onclick="currentSlide(5)"></span> 
+                    </div>
+                    
+                    
+                    <script>
+                    var slideIndex = 1;
+                    showSlides(slideIndex);
+
+                    function plusSlides(n) {
+                      showSlides(slideIndex += n);
+                    }
+
+                    function currentSlide(n) {
+                      showSlides(slideIndex = n);
+                    }
+
+                    function showSlides(n) {
+                      var i;
+                      var slides = document.getElementsByClassName("mySlides");
+                      var dots = document.getElementsByClassName("dot");
+                      if (n > slides.length) {slideIndex = 1}    
+                      if (n < 1) {slideIndex = slides.length}
+                      for (i = 0; i < slides.length; i++) {
+                          slides[i].style.display = "none";  
+                      }
+                      for (i = 0; i < dots.length; i++) {
+                          dots[i].className = dots[i].className.replace(" active", "");
+                      }
+                      slides[slideIndex-1].style.display = "block";  
+                      dots[slideIndex-1].className += " active";
+                    }
+                    </script>
+
+                    
+
+
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="https://www.linkedin.com/in/jawadhaq711/"target=”_blank”>
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+    
+    
+
+</body>
+
+</html>
